@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+chmod +x mfetch
+install -Dm 755 mfetch "$1/usr/bin/mfetch"
