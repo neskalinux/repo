@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+python waf/waf-light configure \
+    --prefix=/usr \
+    --mandir=/usr/share/man \
+    --confdir=/etc/mpv \
+    --enable-alsa \
+    --disable-libarchive
+
+python waf/waf-light build
+python waf/waf-light install --destdir="$1"

@@ -1,0 +1,8 @@
+automake make
+autoconf make
+expat
+libdrm
+libpciaccess
+pkgconf make
+mesa
+xorgproto

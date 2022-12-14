@@ -1,0 +1,7 @@
+https://archive.mozilla.org/pub/firefox/releases/102.5.0esr/source/firefox-102.5.0esr.source.tar.xz
+https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz yasm/
+patches/fix-linux-header.patch
+patches/no-dbus.patch
+patches/no-fribidi.patch
+patches/no-perl.patch
+patches/python-3.11.patch
